@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:transitionGroup="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mainlist_title"
+            android:id="@+id/mainlist_textView"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:padding="7dp"
+            android:background="@drawable/textview_o"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mainlist_count"
+            android:id="@+id/mainlist_count"
+            android:layout_margin="10dp"
+            android:padding="7dp"
+            android:background="@drawable/textview_o" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:id="@+id/main_list"
+            android:fastScrollEnabled="true">
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>
