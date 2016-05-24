@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/mainlist_title"
+            android:text="@string/zhongzhuan_main_title"
             android:id="@+id/zhongzhuan_main_textView"
             android:layout_gravity="top"
             android:layout_margin="5dp"

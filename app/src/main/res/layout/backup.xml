@@ -94,7 +94,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="未锁"
-                     android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
@@ -227,6 +227,28 @@
                     android:textSize="24sp" />
             </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_progress_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#eeeeee"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/sercice_dialog_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="@string/bluetooth_scan_activity_dialog"
+            android:textSize="24sp" />
     </LinearLayout>
 
 </FrameLayout>

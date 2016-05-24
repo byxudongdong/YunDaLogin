@@ -13,6 +13,10 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
     </string>
     <string name="mainlist_title">"韵达快递—工种选择"</string>
+    <string name="fajian_title">"韵达快递—业务操作"</string>
+    <string name="zhongzhuan_main_title">"韵达快递—业务操作"</string>
+    <string name="zhongzhuan_fachu_title">"韵达快递—业务操作"</string>
+
     <string name="mainlist_count">"000/000"</string>
     <string name="mainlist_update">"更新"</string>
     <string name="mainlist_back">"返回"</string>
